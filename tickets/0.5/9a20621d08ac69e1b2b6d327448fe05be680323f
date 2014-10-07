@@ -7,3 +7,20 @@ Weight: 4
 Status: open
 Assigned to: -
 
+---8<---
+$ git flow release publish
+publishing release branch 0.1
+
+Summary of actions:
+- A new remote branch 'None' was created
+- The local branch 'None' was configured to track the remote branch
+- You are now on branch 'None'
+
+olf@debpy:umi$ git branch
+  git-it
+  master
+* release/0.1
+  stable
+$ git flow version
+0.5.1
+---8<---
