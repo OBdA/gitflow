@@ -7,3 +7,10 @@ Weight: 6
 Status: open
 Assigned to: -
 
+---8<---
+$ git status
+nothing to commit (working directory clean)
+olf@debpy:umi$ git flow release publish
+publishing release branch 0.1
+Error: origin/release/0.1
+---8<---
