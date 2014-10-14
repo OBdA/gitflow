@@ -49,11 +49,11 @@ class BranchManager(object):
         from gitflow.core import GitFlow
         assert isinstance(gitflow, GitFlow), "Argument 'gitflow' must be a GitFlow instance."
         self.gitflow = gitflow
-        if not prefix is None:
+        if prefix is None:
+            self.prefix = None
+        else:
             assert isinstance(prefix, basestring), "Argument 'prefix' must be a string."
             self.prefix = prefix
-        else:
-            self.prefix = None
 
     def default_base(self):
         """
