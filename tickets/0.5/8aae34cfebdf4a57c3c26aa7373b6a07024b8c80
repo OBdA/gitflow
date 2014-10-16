@@ -7,3 +7,18 @@ Weight: 1
 Status: open
 Assigned to: -
 
+$ gst
+nothing to commit (working directory clean)
+olf@debpy:pigs$ git flow hotfix start 1.4
+create hotfix branch 1.4 (from None)
+
+Summary of actions:
+- A new branch hotfix/1.4 was created, based on None
+- You are now on branch hotfix/1.4
+
+Follow-up actions:
+- Bump the version number now!
+- Start committing your hot fixes
+- When done, run:
+
+     git flow hotfix finish 1.4
